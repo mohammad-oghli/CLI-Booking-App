@@ -1,2 +1,2 @@
 # CLI Booking APP
-Simple CLI Booking program using `Golang + Mysql + Gorm`.
+Simple command-line interface Booking program using `Golang + Mysql + Gorm`.
