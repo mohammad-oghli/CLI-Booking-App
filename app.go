@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 
 	"oghli.pro/cli-booking-app/models"
 )
@@ -74,10 +76,11 @@ func main() {
 		if logged_user == "admin" {
 			var conf_name string
 			var total_tickets uint
+			scanner := bufio.NewReader(os.Stdin)
 			fmt.Println("Create New Conference:")
-			fmt.Println("##########################################")
+			fmt.Println("######################")
 			fmt.Print("Enter conference name: ")
-			fmt.Scan(&conf_name)
+			conf_name, _ = scanner.ReadString('\n')
 			fmt.Print("Enter total number of tickets: ")
 			fmt.Scan(&total_tickets)
 			q_conf := models.GetConferenceByName(conf_name)
