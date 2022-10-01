@@ -19,3 +19,11 @@ func Init_Conferences() {
 	redhat_conf.NewConference()
 	dell_conf.NewConference()
 }
+
+// Adding admin user for the app
+// Admin can create new conferences and add them to the app
+func Set_Admin() {
+	admin := models.User{UserName: "admin", Password: "admin@123"}
+	// adding object to booking app DB
+	admin.NewUser()
+}
