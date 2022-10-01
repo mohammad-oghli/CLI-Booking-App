@@ -12,7 +12,7 @@ import (
 func main() {
 	fmt.Println("WELCOME TO CLI BOOKING APP!")
 	fmt.Println("###########################")
-	// Adding admin user
+	// Adding admin user to booking app DB
 	// Comment it after first run of the app
 	db_conf_data.Set_Admin()
 	// Adding intial Conferences data to booking app DB
