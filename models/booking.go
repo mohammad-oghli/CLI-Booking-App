@@ -48,7 +48,7 @@ func (user *User) UpdateUserBooking() {
 }
 
 func (conf *Conference) NewConference() {
-	db.Create(&conf)
+	db.Omit("Users").Create(&conf)
 }
 
 func GetAllConferences() []Conference {
@@ -59,7 +59,7 @@ func GetAllConferences() []Conference {
 
 func GetConferenceByName(name string) *Conference {
 	var selected_conf Conference
-	db.Preload("Users").First(&selected_conf, "Name = ?", name)
+	db.Preload("Users").Find(&selected_conf, "Name = ?", name).Limit(1)
 	return &selected_conf
 }
 

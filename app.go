@@ -76,11 +76,13 @@ func main() {
 		if logged_user == "admin" {
 			var conf_name string
 			var total_tickets uint
-			scanner := bufio.NewReader(os.Stdin)
 			fmt.Println("Create New Conference:")
 			fmt.Println("######################")
 			fmt.Print("Enter conference name: ")
-			conf_name, _ = scanner.ReadString('\n')
+			scanner := bufio.NewScanner(os.Stdin)
+			scanner.Scan()
+			scanner.Scan()
+			conf_name = scanner.Text()
 			fmt.Print("Enter total number of tickets: ")
 			fmt.Scan(&total_tickets)
 			q_conf := models.GetConferenceByName(conf_name)
