@@ -36,9 +36,7 @@ Account Successfuly Created!
 PS C:\Users\mhdsh\Go Workpsace\CLI-Booking-App> go run app.go
 
 WELCOME TO CLI BOOKING APP!
-
 ###########################
-
 Select option:
 1. Register to the App
 2. Login if you already a registered user
