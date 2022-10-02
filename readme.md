@@ -33,7 +33,9 @@ Account Successfuly Created!
 PS C:\Users\mhdsh\Go Workpsace\CLI-Booking-App> go run app.go
 
 WELCOME TO CLI BOOKING APP!
+
 ###########################
+
 Select option:
 1. Register to the App
 2. Login if you already a registered user
@@ -49,6 +51,7 @@ Password: 123456
 Welcome oghli!
 
 List of of currently available Conferences
+
 ##########################################
 1. Cisco Live | Total Tickets: 60 | Total booked users: 0
 2. Microsoft MVP Global Summit | Total Tickets: 120 | Total booked users: 2
@@ -73,4 +76,5 @@ Enter number of tickets: 25
 Thank you Mohamad Oghli for booking 25 tickets. You will recive confirmation email at oghli@gmail.com.
 
 95 tickets remaining for Microsoft MVP Global Summit.
+
 </code>
