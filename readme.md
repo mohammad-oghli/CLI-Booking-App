@@ -14,6 +14,7 @@ The application main functionalities:
 The app interface look like:
 
 <code>
+
 PS C:\Users\mhdsh\Go Workpsace\CLI-Booking-App> go run app.go        
 
 WELCOME TO CLI BOOKING APP!
