@@ -10,6 +10,9 @@ import (
 )
 
 func main() {
+	var option uint
+	var logged_user string
+	var logged bool = false
 	fmt.Println("WELCOME TO CLI BOOKING APP!")
 	fmt.Println("###########################")
 	// Adding admin user to booking app DB
@@ -18,9 +21,6 @@ func main() {
 	// Adding intial Conferences data to booking app DB
 	// Comment it after first run of the app
 	db_conf_data.Init_Conferences()
-	var option uint
-	var logged_user string
-	var logged bool = false
 	fmt.Println("Select option:")
 	fmt.Println("1. Register to the App")
 	fmt.Println("2. Login if you already a registered user")
