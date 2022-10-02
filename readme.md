@@ -13,9 +13,7 @@ The application main functionalities:
 
 The app interface look like:
 
-<code>
-
-PS C:\Users\mhdsh\Go Workpsace\CLI-Booking-App> go run app.go        
+<code>PS C:\Users\mhdsh\Go Workpsace\CLI-Booking-App> go run app.go        
 
 WELCOME TO CLI BOOKING APP!
 ###########################
@@ -76,6 +74,4 @@ Enter number of tickets: 25
 
 Thank you Mohamad Oghli for booking 25 tickets. You will recive confirmation email at oghli@gmail.com.
 
-95 tickets remaining for Microsoft MVP Global Summit.
-
-</code>
+95 tickets remaining for Microsoft MVP Global Summit.</code>
