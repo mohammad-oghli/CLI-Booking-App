@@ -82,4 +82,18 @@ Thank you Mohamad Oghli for booking 25 tickets. You will recive confirmation ema
 
 </code>
 
+To connect to your local Mysql database you should change this line of code in `db_conn.go` file inside `db_config` directory:
+
+`dsn := "user:pass@tcp(localhost:3306)/booking_app_db?charset=utf8mb4&parseTime=True&loc=Local"`
+
+add here your **user** and **pass** for Mysql.
+
+In order to build the app run this command in your terminal inside application directory:
+
+`go build`
+
+After that run the app build using:
+
+`.\cli-booking-app.exe`
+
 You can star the repository to follow the latest updates of this version of CLI-Booking App.
