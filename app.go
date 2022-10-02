@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 
+	"oghli.pro/cli-booking-app/db_conf_data"
 	"oghli.pro/cli-booking-app/models"
 )
 
@@ -13,10 +14,10 @@ func main() {
 	fmt.Println("###########################")
 	// Adding admin user to booking app DB
 	// Comment it after first run of the app
-	//db_conf_data.Set_Admin()
+	db_conf_data.Set_Admin()
 	// Adding intial Conferences data to booking app DB
 	// Comment it after first run of the app
-	//db_conf_data.Init_Conferences()
+	db_conf_data.Init_Conferences()
 	var option uint
 	var logged_user string
 	var logged bool = false
