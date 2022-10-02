@@ -81,3 +81,5 @@ Thank you Mohamad Oghli for booking 25 tickets. You will recive confirmation ema
 95 tickets remaining for Microsoft MVP Global Summit.
 
 </code>
+
+You can star the repository to follow the latest updates of this version of CLI-Booking App.
