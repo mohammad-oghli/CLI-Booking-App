@@ -50,6 +50,7 @@ List of of currently available Conferences
 6. Apple Unleashed | Total Tickets: 250 | Total booked users: 0
 7. IGN Entertainment | Total Tickets: 50 | Total booked users: 0
 ##########################################
+
 Please select conference number to book: 2
 Enter your first name: Mohamad
 Enter your last name: Oghli
@@ -57,7 +58,6 @@ Enter your email address: oghli@gmail.com
 Enter number of tickets: 25
 
 Thank you Mohamad Oghli for booking 25 tickets. You will recive confirmation email at oghli@gmail.com.
-
 95 tickets remaining for Microsoft MVP Global Summit.
 
 </pre>
