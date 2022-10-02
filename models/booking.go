@@ -48,7 +48,7 @@ func (user *User) UpdateUserBooking() {
 }
 
 func (conf *Conference) NewConference() {
-	db.Omit("Users").Create(&conf)
+	db.Create(&conf)
 }
 
 func GetAllConferences() []Conference {
