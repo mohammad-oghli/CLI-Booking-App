@@ -13,7 +13,7 @@ The application main functionalities:
 
 The app interface look like:
 
-<code>
+<pre>
 
 PS C:\Users\mhdsh\Go Workpsace\CLI-Booking-App> go run app.go        
 
@@ -80,7 +80,7 @@ Thank you Mohamad Oghli for booking 25 tickets. You will recive confirmation ema
 
 95 tickets remaining for Microsoft MVP Global Summit.
 
-</code>
+</pre>
 
 To connect to your local Mysql database you should change this line of code in `db_conn.go` file inside `db_config` directory:
 
