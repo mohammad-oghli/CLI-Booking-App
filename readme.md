@@ -18,6 +18,7 @@ The app interface look like:
 PS C:\Users\mhdsh\Go Workpsace\CLI-Booking-App> go run app.go        
 
 WELCOME TO CLI BOOKING APP!
+
 ###########################
 Select option:
 1. Register to the App
