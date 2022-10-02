@@ -77,8 +77,8 @@ func main() {
 		if logged_user == "admin" {
 			var conf_name string
 			var total_tickets uint
-			fmt.Println("Create New Conference:")
-			fmt.Println("######################")
+			fmt.Println("Create New Conference")
+			fmt.Println("#####################")
 			fmt.Print("Enter conference name: ")
 			scanner := bufio.NewScanner(os.Stdin)
 			scanner.Scan()
